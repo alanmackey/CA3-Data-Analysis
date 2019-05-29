@@ -231,7 +231,7 @@ lines(density(AOV_model_ln$residuals), col = "red", lwd = 1)
 qqnorm(AOV_model_ln$residuals)
 qqline(AOV_model_ln$residuals)
 shapiro.test(x = AOV_model_ln$residuals)
-### You can truy to do the same analysis as before but on the ln-transformed variable value and check
+### We can try to do the same analysis as before but on the ln-transformed variable value and check
 ### if the ln stabilized the variance.
 
 #===================================================================================#
